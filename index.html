@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Calculator</title>
   <link rel="stylesheet" type="text/css" href="calculator.css">
-  <title></title>
+  <script src="calculator.js"></script>
 </head>
 <body>
 <form name = calcform>
 <input type = text name = display>
   <div>
-    <input type = button name = btn9 value = 9>
+    <input type = button name = btn9 value = 9 onclick="displaynum(btn9.value)">
     <input type = button name = btn8 value = 8>
     <input type = button name = btn7 value = 7>
     <input type = button name = addbtn value = "+">
